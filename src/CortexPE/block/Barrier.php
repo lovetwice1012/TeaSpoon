@@ -30,12 +30,12 @@ class Barrier extends Transparent{
 
 	protected $id = 166;
 
-	public function __construct(int $meta = 0){
-		$this->meta = $meta;
+public function __construct(){
+
 	}
 
 	public function getName() : string{
-		return "Barrier";
+		return "barrier";
 	}
 
 	public function getHardness() : float{

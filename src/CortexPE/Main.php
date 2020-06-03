@@ -151,10 +151,6 @@ class Main extends PluginBase {
 		// Initialize ze managars //
 		
 		BlockManager::init();
-		
-	
-		// Register Listeners
-		$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 		$this->getServer()->getPluginManager()->registerEvents(new PacketHandler($this), $this);
 	}
 

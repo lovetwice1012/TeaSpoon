@@ -62,7 +62,103 @@ class Main extends PluginBase {
 	/** @var string */
 	private static $sixCharCommitHash = "";
 	////////////////////////////////// END OF INSTANCE VARIABLES //////////////////////////////////
+	///////////////////////////////// START OF CONFIGS VARIABLES /////////////////////////////////
+	/** @var bool */
+	public static $registerVanillaEntities = true;
+	/** @var bool */
+	public static $registerVanillaEnchantments = true;
+	/** @var bool */
+	public static $registerDimensions = true;
+	/** @var bool */
+	public static $weatherEnabled = true;
+	/** @var int */
+	public static $weatherMinTime = 6000;
+	/** @var int */
+	public static $weatherMaxTime = 12000;
+	/** @var bool */
+	public static $enableWeatherLightning = true;
+	/** @var bool */
+	public static $limitedCreative = false;
+	/** @var bool */
+	public static $randomFishingLootTables = false;
+	/** @var bool */
+	public static $vanillaNetherTransfer = false;
+	/** @var string */
+	public static $overworldLevelName = "";
+	/** @var Level */
+	public static $overworldLevel = null;
+	/** @var bool */
+	public static $instantArmorReplace = false;
+	/** @var bool */
+	public static $elytraEnabled = true;
+	/** @var bool */
+	public static $elytraBoostEnabled = true;
+	/** @var bool */
+	public static $silkSpawners = false;
+	/** @var bool */
+	public static $fireworksEnabled = true;
+	/** @var bool */
+	public static $ePearlEnabled = true;
+	/** @var bool */
+	public static $chorusFruitEnabled = true;
+	/** @var bool */
+	public static $instantArmorEnabled = true;
+	/** @var bool */
+	public static $dropMobExperience = true;
+	/** @var bool */
+	public static $fishingEnabled = true;
+	/** @var bool */
+	public static $clearInventoryOnGMChange = false;
+	/** @var bool */
+	public static $mobSpawnerEnable = true;
+	/** @var bool */
+	public static $hoppersEnabled = true;
+	/** @var bool */
+	public static $beaconEnabled = true;
+	/** @var bool */
+	public static $beaconEffectsEnabled = true;
+	/** @var bool */
+	public static $shulkerBoxEnabled = true;
+	/** @var bool */
+	public static $elytraBoostParticles = true;
+	/** @var bool */
+	public static $endCrystalExplode = true;
+	/** @var bool */
+	public static $EnchantingTableEnabled = true;
+	/** @var bool */
+	public static $AnvilEnabled = true;
+	/** @var bool */
+	public static $dragonEggTeleport = true;
+	/** @var float */
+	public static $endCrystalPower = 6;
+	/** @var string */
+	public static $cars = "";
+	/** @var bool */
+	public static $creepersExplodes = false;
+	/** @var bool */
+	public static $chargedCreepers = true;
+	/** @var bool */
+	public static $ignitableCreepers = true;
+	/** @var bool */
+	public static $lightningRods = false;
+	/** @var bool */
+	public static $enableIronGolemStructures = true;
+	/** @var bool */
+	public static $enableSnowGolemStructures = true;
+	/** @var bool */
+	public static $shearableSnowGolem = true;
+	/** @var bool */
+	public static $snowGolemSnowTrails = false;
+	/** @var bool */
+	public static $snowGolemMelts = true;
+	/** @var bool */
+	public static $snowLayerMelts = true;
+	/** @var bool */
+	public static $brewingStandsEnabled = true;
+	/** @var bool */
+	public static $cauldronsEnabled = true;
 
+	////////////////////////////////// END OF CONFIGS VARIABLES //////////////////////////////////
 
 
 	public static function getInstance(): Main{

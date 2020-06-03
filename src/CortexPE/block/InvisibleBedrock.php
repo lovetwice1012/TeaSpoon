@@ -7,16 +7,16 @@ namespace CortexPE\block;
 use pocketmine\item\Item;
 use pocketmine\block\Transparent;
 
-class Barrier extends Transparent{
+class InvisibleBedrock extends Transparent{
 
-	protected $id = -161;
+	protected $id = self::INVISIBLE_BEDROCK;
 
 public function __construct(){
 
 	}
 
 	public function getName() : string{
-		return "barrier";
+		return "InvisibleBedrock";
 	}
 
 	public function getHardness() : float{
@@ -26,8 +26,5 @@ public function __construct(){
 	public function getBlastResistance() : float{
 		return 18000000;
 	}
-
-	public function isBreakable(Item $item) : bool{
-		return false;
-	}
+	
 }

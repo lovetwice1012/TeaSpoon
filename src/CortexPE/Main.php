@@ -68,15 +68,15 @@ class Main extends PluginBase {
 	/** @var bool */
 	public static $registerVanillaEnchantments = true;
 	/** @var bool */
-	public static $registerDimensions = true;
+	public static $registerDimensions = false;
 	/** @var bool */
-	public static $weatherEnabled = true;
+	public static $weatherEnabled = false;
 	/** @var int */
 	public static $weatherMinTime = 6000;
 	/** @var int */
 	public static $weatherMaxTime = 12000;
 	/** @var bool */
-	public static $enableWeatherLightning = true;
+	public static $enableWeatherLightning = false;
 	/** @var bool */
 	public static $limitedCreative = false;
 	/** @var bool */

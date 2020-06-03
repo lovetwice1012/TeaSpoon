@@ -11,6 +11,6 @@ use pocketmine\block\BlockFactory;
 class BlockManager {
 	public static function init(): void{
 		Main::getPluginLogger()->debug("Registering Blocks...");
-		BlockFactory::registerBlock(new Barrier(), true);
+		BlockFactory::registerBlock(new Barrier());
 	}
 }

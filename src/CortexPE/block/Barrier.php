@@ -9,7 +9,7 @@ use pocketmine\block\Transparent;
 
 class Barrier extends Transparent{
 
-	protected $id = 166;
+	protected $id = -161;
 
 public function __construct(){
 

@@ -24,9 +24,9 @@ declare(strict_types=1);
 namespace CortexPE\block;
 
 use pocketmine\item\Item;
-use pocketmine\block\Solid;
+use pocketmine\block\Transparent;
 
-class Barrier extends Solid{
+class Barrier extends Transparent{
 
 	protected $id = 166;
 

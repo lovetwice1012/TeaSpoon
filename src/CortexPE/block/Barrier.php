@@ -21,7 +21,7 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\block;
+namespace CortexPE\block;
 
 use pocketmine\item\Item;
 

@@ -24,6 +24,7 @@ declare(strict_types=1);
 namespace CortexPE\block;
 
 use pocketmine\item\Item;
+use pocketmine\block\Solid;
 
 class Barrier extends Solid{
 
